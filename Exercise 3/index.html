@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My Awesome Blog</h1>
-    <a href="">Home</a> |
-    <a href="">About</a> |
-    <a href="">Contact</a>
-    <hr>
-    <h2>My First Blog Post</h2>
+    <div class="main">
+        <div class="nav">
+            <h1>My Awesome Blog</h1>
+            <div class="nav-a">
+            <a href="">Home</a> |
+            <a href="">About</a> |
+            <a href="">Contact</a>      
+        </div>
+        </div>
+        <hr>
+    <div class="first">
+        <h2>My First Blog Post</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, incidunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ex corporis fuga, exercitationem ullam nemo nobis vitae assumenda optio maxime.</p>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo assumenda commodi beatae nesciunt magnam harum eius numquam, delectus ex nulla adipisci inventore magni, debitis dolorum praesentium! Autem blanditiis earum error unde natus tenetur ratione quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odit tempore, ab provident doloremque ad veritatis ipsam rem pariatur ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta molestias nemo earum repudiandae ex quos iure modi aliquid officiis illo.</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuQIl1C1HPT5YTSOfzrvoo7_qf2RYmhjy_Uw&s" alt="Sheryians">
+    <div class="firstimg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuQIl1C1HPT5YTSOfzrvoo7_qf2RYmhjy_Uw&s" alt="Sheryians">
+    </div>
     <p>Here is an image related to live cohort instructor - harsh sharma.</p>
     <h3>Things i seen in the park:</h3>
     <ul>
@@ -24,7 +33,9 @@
         <li>A small pond with ducks</li>
     </ul>
     <hr>
-    <h1>My Second Blog Post - Favorite Foods</h1>
+    </div>
+    <div class="second">
+        <h1>My Second Blog Post - Favorite Foods</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatibus dolores perspiciatis fugiat commodi numquam porro nostrum maxime vitae cum Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, porro?</p>
     <p>Here are some of my favorite foods:</p>
     <ol>
@@ -43,20 +54,12 @@
         </ol>
     </ol>
     <p>These are just some of my favorites. What's Yours?</p>
-    <p>That's all for this post! Thanks For Reading.</p>
+    <p class="thanks">That's all for this post! Thanks For Reading.</p>
+</div>
     <hr>
-    <h1>Contact Us</h1>
-    <form action="">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="name" placeholder="Enter Your Name"><br><br>
-        <label for="country">Country</label><br>
-        <input type="text" id="country" name="country" placeholder="Enter Your Country"><br><br>
-        <label for="message">Message</label><br>
-        <textarea name="message" id="message" placeholder="Write Something...."></textarea><br><br>
-        <input type="submit" value="Submit">
-    </form>
-    <hr>
-    <p>&#169 My Simple Blog - All Rights Reserved.</p>
-
+    <div class="footer">
+        <p>&#169 2025 My Simple Blog - All Rights Reserved.</p>
+    </div>
+    </div> 
 </body>
 </html>
