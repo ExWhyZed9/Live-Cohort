@@ -106,3 +106,34 @@ textarea{
 .button:hover{
     background-color: #00a2ff;
 }
+
+@media (max-width:600px){
+
+    .form{
+        height: 520px;
+        width: 80%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:2px 2px  20px 2px grey;
+    }
+
+    label{
+        padding-left: 7.2vw;
+    }
+    
+    input{
+        margin-left: 7.5vw;
+    }
+
+    textarea{
+        margin-left: 7.5vw;
+        height: 150px;
+        width: 80%;
+        font-size: 15px;
+        margin-bottom: 1vw;
+        padding-left: 1vw;
+        padding-top: 1vh;
+        animation: shake 0.5s;
+    }
+    
+}
