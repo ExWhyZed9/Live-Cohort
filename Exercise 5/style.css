@@ -47,7 +47,7 @@ html,body{
 }
 
 label{
-    padding-left: 2.3vw;
+    padding-left: 3vw;
     display: inline-block;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -55,9 +55,9 @@ label{
 }
 
 input{
-    margin-left: 2.3vw;
+    margin-left: 3vw;
     height: 40px;
-    width: 390px;
+    width: 80%;
     font-size: 15px;
     padding-left: 1vw;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
@@ -85,9 +85,9 @@ input{
 }
 
 textarea{
-    margin-left: 2.3vw;
+    margin-left: 3vw;
     height: 150px;
-    width: 390px;
+    width: 80%;
     font-size: 15px;
     margin-bottom: 1vw;
     padding-left: 1vw;
