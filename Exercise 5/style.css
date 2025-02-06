@@ -27,6 +27,7 @@ html,body{
     background-color: white;
     border-radius: 10px;
     box-shadow:2px 2px  20px 2px grey;
+    overflow: auto;
 }
 
 .head {
@@ -86,7 +87,7 @@ input{
 
 textarea{
     margin-left: 3vw;
-    height: 150px;
+    height: 35%;
     width: 80%;
     font-size: 15px;
     margin-bottom: 1vw;
@@ -112,9 +113,6 @@ textarea{
     .form{
         height: 520px;
         width: 80%;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow:2px 2px  20px 2px grey;
     }
 
     label{
@@ -127,13 +125,6 @@ textarea{
 
     textarea{
         margin-left: 7.5vw;
-        height: 150px;
-        width: 80%;
-        font-size: 15px;
-        margin-bottom: 1vw;
-        padding-left: 1vw;
-        padding-top: 1vh;
-        animation: shake 0.5s;
     }
     
 }
